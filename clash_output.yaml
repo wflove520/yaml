@@ -1,0 +1,518 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: Rule
+log-level: info
+proxies:
+- name: 香港02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8752
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 香港03
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8753
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 香港01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8751
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 香港19
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8719
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 香港05
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8755
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 香港06
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8756
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 台湾02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8742
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 台湾03
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8743
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 台湾01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8741
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 美国04
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8774
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 美国01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8771
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 美国02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8772
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 美国03
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8773
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 美国09
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8779
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 美国06
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8776
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 日本01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8761
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 日本09
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8769
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 日本02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8762
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 日本10
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8770
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 日本08
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8768
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 日本05
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8765
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 新加坡01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8721
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 新加坡03
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8723
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 新加坡07
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8727
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 澳大利亚01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8799
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 巴西02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8648
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 加拿大02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8782
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 瑞士02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8732
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 捷克01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8615
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 德国01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8794
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 德国02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8796
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 西班牙01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8797
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 法国02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8784
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 希腊01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8733
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 匈牙利02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8618
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 匈牙利01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8617
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 意大利02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8736
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 荷兰01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8791
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 波兰02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8632
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 波兰01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8631
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 葡萄牙01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8621
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 葡萄牙02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8622
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 俄罗斯01
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8637
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 俄罗斯02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8638
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 土耳其02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8789
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+- name: 英国02
+  type: ss
+  server: efan9863.dns8656815.com
+  port: 8787
+  cipher: rc4-md5
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+proxy-groups:
+- name: Proxy
+  type: select
+  proxies:
+  - 香港02
+  - 香港03
+  - 香港01
+  - 香港19
+  - 香港05
+  - 香港06
+  - 台湾02
+  - 台湾03
+  - 台湾01
+  - 美国04
+  - 美国01
+  - 美国02
+  - 美国03
+  - 美国09
+  - 美国06
+  - 日本01
+  - 日本09
+  - 日本02
+  - 日本10
+  - 日本08
+  - 日本05
+  - 新加坡01
+  - 新加坡03
+  - 新加坡07
+  - 澳大利亚01
+  - 巴西02
+  - 加拿大02
+  - 瑞士02
+  - 捷克01
+  - 德国01
+  - 德国02
+  - 西班牙01
+  - 法国02
+  - 希腊01
+  - 匈牙利02
+  - 匈牙利01
+  - 意大利02
+  - 荷兰01
+  - 波兰02
+  - 波兰01
+  - 葡萄牙01
+  - 葡萄牙02
+  - 俄罗斯01
+  - 俄罗斯02
+  - 土耳其02
+  - 英国02
+rules:
+- MATCH,Proxy
