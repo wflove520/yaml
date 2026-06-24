@@ -1,518 +1,396 @@
 port: 7890
 socks-port: 7891
-allow-lan: false
-mode: Rule
+allow-lan: true
+mode: rule
 log-level: info
+ipv6: false
+
 proxies:
-- name: 香港02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8752
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 香港03
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8753
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 香港01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8751
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 香港19
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8719
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 香港05
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8755
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 香港06
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8756
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 台湾02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8742
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 台湾03
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8743
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 台湾01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8741
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 美国04
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8774
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 美国01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8771
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 美国02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8772
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 美国03
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8773
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 美国09
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8779
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 美国06
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8776
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 日本01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8761
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 日本09
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8769
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 日本02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8762
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 日本10
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8770
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 日本08
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8768
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 日本05
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8765
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 新加坡01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8721
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 新加坡03
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8723
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 新加坡07
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8727
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 澳大利亚01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8799
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 巴西02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8648
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 加拿大02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8782
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 瑞士02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8732
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 捷克01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8615
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 德国01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8794
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 德国02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8796
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 西班牙01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8797
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 法国02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8784
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 希腊01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8733
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 匈牙利02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8618
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 匈牙利01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8617
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 意大利02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8736
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 荷兰01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8791
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 波兰02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8632
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 波兰01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8631
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 葡萄牙01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8621
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 葡萄牙02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8622
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 俄罗斯01
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8637
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 俄罗斯02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8638
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 土耳其02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8789
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
-- name: 英国02
-  type: ss
-  server: efan9863.dns8656815.com
-  port: 8787
-  cipher: rc4-md5
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    mode: http
-    host: 202603070525382-nWelHVuCYP.download.microsoft.com
+  - name: "🇨🇳台湾01 直连专线"
+    type: vless
+    server: 60.248.219.78
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    network: ws
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: ty986gfazs.cainiaohub.xyz
+    ws-opts:
+      path: '/81574b6b-c9d7-44a0-b83d-dad56e8cb530'
+      headers:
+        Host: 'ty986gfazs.cainiaohub.xyz'
+
+  - name: "🇨🇳台湾02 直连专线"
+    type: vless
+    server: 59.125.69.20
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    network: ws
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: ty986gfazs.cainiaohub.xyz
+    ws-opts:
+      path: '/81574b6b-c9d7-44a0-b83d-dad56e8cb530'
+      headers:
+        Host: 'ty986gfazs.cainiaohub.xyz'
+
+  - name: "🇭🇰香港01 直连专线"
+    type: vless
+    server: 103.180.20.230
+    port: 8443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    network: ws
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: ty986gfazs.cainiaohub.xyz
+    ws-opts:
+      path: '/81574b6b-c9d7-44a0-b83d-dad56e8cb530'
+      headers:
+        Host: 'ty986gfazs.cainiaohub.xyz'
+
+  - name: "🇭🇰香港02 直连专线"
+    type: vless
+    server: 207.174.133.111
+    port: 8443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    network: ws
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: ty986gfazs.cainiaohub.xyz
+    ws-opts:
+      path: '/81574b6b-c9d7-44a0-b83d-dad56e8cb530'
+      headers:
+        Host: 'ty986gfazs.cainiaohub.xyz'
+
+  - name: "🇭🇰香港专线-01"
+    type: vless
+    server: hk1-r.link-t7.com
+    port: 10126
+    uuid: C29C10C3-C050-4433-9CCA-02087385E7CD
+    network: grpc
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: 'wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE'
+      short-id: '686c0ef0'
+    grpc-opts:
+      grpc-service-name: 'update'
+
+  - name: "🇭🇰香港专线-02"
+    type: vless
+    server: 207.174.133.172
+    port: 10000
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇭🇰香港专线-03"
+    type: vless
+    server: 207.174.133.172
+    port: 10000
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇭🇰香港专线-04"
+    type: vless
+    server: hk4-r.link-t7.com
+    port: 10129
+    uuid: C29C10C3-C050-4433-9CCA-02087385E7CD
+    network: grpc
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: 'wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE'
+      short-id: '686c0ef0'
+    grpc-opts:
+      grpc-service-name: 'movie'
+
+  - name: "🇨🇳台湾专线-01"
+    type: vless
+    server: 61.221.84.90
+    port: 10000
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇨🇳台湾专线-02"
+    type: vless
+    server: 61.221.84.90
+    port: 10000
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇯🇵日本专线-01"
+    type: vless
+    server: jp1-r.link-t7.com
+    port: 10031
+    uuid: C29C10C3-C050-4433-9CCA-02087385E7CD
+    network: grpc
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: 'wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE'
+      short-id: '686c0ef0'
+    grpc-opts:
+      grpc-service-name: 'update'
+
+  - name: "🇯🇵日本专线-02"
+    type: vless
+    server: 14.137.238.155
+    port: 10000
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇯🇵日本专线-03"
+    type: vless
+    server: 14.137.238.155
+    port: 10000
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇯🇵日本专线-04"
+    type: vless
+    server: jp4-r.link-t7.com
+    port: 10034
+    uuid: C29C10C3-C050-4433-9CCA-02087385E7CD
+    network: grpc
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: 'wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE'
+      short-id: '686c0ef0'
+    grpc-opts:
+      grpc-service-name: 'update'
+
+  - name: "🇺🇸美国专线-01"
+    type: vless
+    server: 206.82.3.131
+    port: 443
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇺🇸美国专线-02"
+    type: vless
+    server: us2-r.link-t7.com
+    port: 10239
+    uuid: C29C10C3-C050-4433-9CCA-02087385E7CD
+    network: grpc
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: 'wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE'
+      short-id: '686c0ef0'
+    grpc-opts:
+      grpc-service-name: 'movie'
+
+  - name: "🇺🇸美国专线-03"
+    type: vless
+    server: 206.82.3.131
+    port: 443
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇺🇸美国专线-04"
+    type: vless
+    server: us3-r.link-t7.com
+    port: 10240
+    uuid: C29C10C3-C050-4433-9CCA-02087385E7CD
+    network: grpc
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: 'wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE'
+      short-id: '686c0ef0'
+    grpc-opts:
+      grpc-service-name: 'movie'
+
+  - name: "🇸🇬新加坡专线-01"
+    type: vless
+    server: sg1-r.link-t7.com
+    port: 10036
+    uuid: C29C10C3-C050-4433-9CCA-02087385E7CD
+    network: grpc
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: 'wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE'
+      short-id: '686c0ef0'
+    grpc-opts:
+      grpc-service-name: 'update'
+
+  - name: "🇸🇬新加坡专线-02"
+    type: vless
+    server: sg2-r.link-t7.com
+    port: 10037
+    uuid: C29C10C3-C050-4433-9CCA-02087385E7CD
+    network: grpc
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: s0.awsstatic.com
+    reality-opts:
+      public-key: 'wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE'
+      short-id: '686c0ef0'
+    grpc-opts:
+      grpc-service-name: 'update'
+
+  - name: "🇯🇵日本三网优化-01"
+    type: vless
+    server: 14.137.238.151
+    port: 10000
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇯🇵日本三网优化-02"
+    type: vless
+    server: 14.137.238.151
+    port: 10000
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇨🇳台湾三网优化-01"
+    type: vless
+    server: 211.76.176.127
+    port: 10000
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇨🇳台湾三网优化-02"
+    type: vless
+    server: 211.76.176.127
+    port: 10000
+    uuid: d26598cf-2cdf-4219-80d0-94646dff160d
+    network: tcp
+    udp: true
+    tls: false
+
+  - name: "🇸🇬新加坡直连-01 千兆专线"
+    type: vless
+    server: 38.180.249.80
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    network: ws
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: fd687hery.cainiaohub.xyz
+    ws-opts:
+      path: '/81574b6b-c9d7-44a0-b83d-dad56e8cb529'
+      headers:
+        Host: 'fd687hery.cainiaohub.xyz'
+
+  - name: "🇸🇬新加坡直连-02 千兆专线"
+    type: vless
+    server: 38.180.249.80
+    port: 443
+    uuid: 10c10faf-375a-4fe8-9403-613641a87c4f
+    network: ws
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    servername: fd687hery.cainiaohub.xyz
+    ws-opts:
+      path: '/81574b6b-c9d7-44a0-b83d-dad56e8cb529'
+      headers:
+        Host: 'fd687hery.cainiaohub.xyz'
+
+
+
 proxy-groups:
-- name: Proxy
-  type: select
-  proxies:
-  - 香港02
-  - 香港03
-  - 香港01
-  - 香港19
-  - 香港05
-  - 香港06
-  - 台湾02
-  - 台湾03
-  - 台湾01
-  - 美国04
-  - 美国01
-  - 美国02
-  - 美国03
-  - 美国09
-  - 美国06
-  - 日本01
-  - 日本09
-  - 日本02
-  - 日本10
-  - 日本08
-  - 日本05
-  - 新加坡01
-  - 新加坡03
-  - 新加坡07
-  - 澳大利亚01
-  - 巴西02
-  - 加拿大02
-  - 瑞士02
-  - 捷克01
-  - 德国01
-  - 德国02
-  - 西班牙01
-  - 法国02
-  - 希腊01
-  - 匈牙利02
-  - 匈牙利01
-  - 意大利02
-  - 荷兰01
-  - 波兰02
-  - 波兰01
-  - 葡萄牙01
-  - 葡萄牙02
-  - 俄罗斯01
-  - 俄罗斯02
-  - 土耳其02
-  - 英国02
+  - name: "🚀 会员节点"
+    type: select
+    proxies:
+      - "🇨🇳台湾01 直连专线"
+      - "🇨🇳台湾02 直连专线"
+      - "🇭🇰香港01 直连专线"
+      - "🇭🇰香港02 直连专线"
+      - "🇭🇰香港专线-01"
+      - "🇭🇰香港专线-02"
+      - "🇭🇰香港专线-03"
+      - "🇭🇰香港专线-04"
+      - "🇨🇳台湾专线-01"
+      - "🇨🇳台湾专线-02"
+      - "🇯🇵日本专线-01"
+      - "🇯🇵日本专线-02"
+      - "🇯🇵日本专线-03"
+      - "🇯🇵日本专线-04"
+      - "🇺🇸美国专线-01"
+      - "🇺🇸美国专线-02"
+      - "🇺🇸美国专线-03"
+      - "🇺🇸美国专线-04"
+      - "🇸🇬新加坡专线-01"
+      - "🇸🇬新加坡专线-02"
+      - "🇯🇵日本三网优化-01"
+      - "🇯🇵日本三网优化-02"
+      - "🇨🇳台湾三网优化-01"
+      - "🇨🇳台湾三网优化-02"
+      - "🇸🇬新加坡直连-01 千兆专线"
+      - "🇸🇬新加坡直连-02 千兆专线"
+
+  - name: "🌐 节点选择"
+    type: select
+    proxies:
+      - "🚀 会员节点"
+      - "DIRECT"
+
 rules:
-- MATCH,Proxy
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - GEOSITE,cn,DIRECT
+  - GEOIP,cn,DIRECT
+  - MATCH,🌐 节点选择
